@@ -2,7 +2,9 @@ import React from 'react'
 
 const FeaturedProducts = () => {
   return (
-    <div>FeaturedProducts</div>
+    <div className='grid md:grid'>
+      
+    </div>
   )
 }
 
