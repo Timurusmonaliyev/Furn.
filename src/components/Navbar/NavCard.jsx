@@ -45,7 +45,7 @@ const NavCard = () => {
   };
 
   return (
-    <div className="absolute mt-[70px] overflow-y-scroll h-[180px] py-[18px] z-50 bg-[#ffffff]  left-[70%]">
+    <div className="absolute mt-[70px] overflow-y-scroll h-[180px] py-[18px] z-50 bg-[#ffffff] left-[70%]">
       <div className="flex items-start gap-[30px] justify-center">
         <div>
           {malumot.map((item, index) => {
@@ -77,6 +77,10 @@ const NavCard = () => {
             );
           })}
         </div>
+      </div>
+      <div className="xl:w-[300px] flex justify-around text-xl font-bold items-center">
+        <p> Total: $0.00</p>
+        <button className="bg-[#e99c2e] text-white py-2 px-4 rounded"> View Cart</button>
       </div>
     </div>
   );

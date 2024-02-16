@@ -17,52 +17,56 @@ const AkmaljonCarousel = () => {
         className="mySwiperim h-[600px]"
       >
         <SwiperSlide>
-          <div className="img text-white border  grid items-center">
-            <div className="w-[90%]  grid xl:gap-10 lg:gap-6 xl:ml-72 lg:ml-16 md:ml-10 ml-6">
-              <h4 className="xl:text-[36px] lg:text-[32px] md:text-[30px] text-[30px] font-bold ">
-                Unlimited sofa collection
-              </h4>
-              <p
-                style={{ lineHeight: "1.8" }}
-                className="xl:w-[48%] xl:text-[17px] capitalize lg:text-[16px] md:text-[15px] text-[14px] lg:w-[67%] md:w-[94%] w-[96%] font-semibold"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-                <p>
-                  strting from <span className="text-[#e99c2e]">$ 199</span>
+          <div class="sofa-collection collectionbg1">
+            <div class="container">
+              <div class="sofa-collection-txt xl:ml-[185px] md:ml-10 lg:ml-16 ml-5">
+                <h2>Unlimited Sofa Collection</h2>
+                <p style={{ lineHeight: "1.8" }} className="text-[18px]">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
+                <div class="sofa-collection-price">
+                  <h4>
+                    strting from <span>$ 199</span>
+                  </h4>
+                </div>
                 <br />
-                <button className="w-[170px] h-[50px] bg-[#e99c2e] font-medium">
-                  View More
+                <button
+                  class="btn-cart welcome-add-cart sofa-collection-btn w-[170px] h-[50px] text-white bg-[#E99C2E]"
+                  onclick="window.location.href='#'"
+                >
+                  view more
                 </button>
-              </p>
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="img2 text-white  border  grid items-center">
-            <div className="w-[90%] grid xl:gap-10 lg:gap-6 xl:ml-72 lg:ml-16 md:ml-10 ml-6">
-              <h4 className="xl:text-[36px] lg:text-[32px] md:text-[30px] text-[30px] font-bold ">
-                Unlimited sofa collection
-              </h4>
-              <p
-                style={{ lineHeight: "1.8" }}
-                className="xl:w-[48%] xl:text-[17px] capitalize lg:text-[16px] md:text-[15px] text-[14px] lg:w-[67%] md:w-[94%] w-[96%] font-semibold"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-                <p>
-                  strting from <span className="text-[#e99c2e]">$ 199</span>
+          <div class="sofa-collection collectionbg2">
+            <div class="container">
+              <div class="sofa-collection-txt xl:ml-[185px] md:ml-10 lg:ml-16 ml-5">
+                <h2>Unlimited Daining Table Collection</h2>
+                <p style={{ lineHeight: "1.8" }} className="text-[18px]">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
+                <div class="sofa-collection-price">
+                  <h4>
+                    strting from <span>$ 199</span>
+                  </h4>
+                </div>
                 <br />
-                <button className="w-[170px] h-[50px] bg-[#e99c2e] font-medium">
-                  View More
+                <button
+                  class="btn-cart welcome-add-cart sofa-collection-btn w-[170px] h-[50px] text-white bg-[#E99C2E]"
+                  onclick="window.location.href='#'"
+                >
+                  view more
                 </button>
-              </p>
+              </div>
             </div>
           </div>
         </SwiperSlide>
