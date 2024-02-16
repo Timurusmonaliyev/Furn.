@@ -7,20 +7,12 @@ import { Autoplay } from "swiper/modules";
 const AkmaljonCarousel = () => {
   return (
     <div className="">
-      <Swiper
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: true,
-        }}
-        loop={true}
-        modules={[Autoplay]}
-        className="mySwiperim h-[600px]"
-      >
+    <Swiper>
         <SwiperSlide>
-          <div class="sofa-collection collectionbg1">
+          <div class="sofa-collection collectionbg2">
             <div class="container">
               <div class="sofa-collection-txt xl:ml-[185px] md:ml-10 lg:ml-16 ml-5">
-                <h2>Unlimited Sofa Collection</h2>
+                <h2>Unlimited Daining Table Collection</h2>
                 <p style={{ lineHeight: "1.8" }} className="text-[18px]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -75,4 +67,8 @@ const AkmaljonCarousel = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AkmaljonCarousel;
+=======
+export default AkmaljonCarousel;
+>>>>>>> a5cc2e9ef944c7562cdde9f814b69a3c6923ca6b
