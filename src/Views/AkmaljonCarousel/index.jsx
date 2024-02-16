@@ -9,16 +9,16 @@ const AkmaljonCarousel = () => {
     <div className="">
       <Swiper
         autoplay={{
-          delay: 300,
+          delay: 4000,
           disableOnInteraction: true,
-          module: Autoplay,
         }}
         loop={true}
+        modules={[Autoplay]}
         className="mySwiperim h-[600px]"
       >
         <SwiperSlide>
-          <div className="img text-white  border  grid items-center">
-            <div className="w-[90%] grid xl:gap-10 lg:gap-6 xl:ml-72 lg:ml-16 md:ml-10 ml-6">
+          <div className="img text-white border  grid items-center">
+            <div className="w-[90%]  grid xl:gap-10 lg:gap-6 xl:ml-72 lg:ml-16 md:ml-10 ml-6">
               <h4 className="xl:text-[36px] lg:text-[32px] md:text-[30px] text-[30px] font-bold ">
                 Unlimited sofa collection
               </h4>
