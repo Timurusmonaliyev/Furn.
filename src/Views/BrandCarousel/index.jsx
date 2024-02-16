@@ -32,12 +32,12 @@ export default function BrandCarousel() {
             spaceBetween: 180,
           },
 
-          1400: {
+          1350: {
             slidesPerView: 5,
           },
         }}
         slidesPerView={5}
-        spaceBetween={190}
+        spaceBetween={160}
         loop={true}
         modules={[Pagination]}
         className="Carusel w-[78%] m-auto cursor-pointer"

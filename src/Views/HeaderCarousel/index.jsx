@@ -47,8 +47,16 @@ export default function App() {
               <p>
                 $ 399.00 <del className="">$ 499.00</del>
               </p>
+              <div className="flex gap-10">
+                <button className="bg-[#e99c2e] p-10 py-4 text-white hover:bg-white hover:border-[1px] hover:text-[#e99c2e] border-[#e99c2e]">
+                  Add to Cart
+                </button>
+                <button className="bg-[#ffffff] border-[#e99c2e] p-10 py-4 text-[#e99c2e] hover:bg-white hover:border-[1px] hover:text-[#e99c2e]">
+                  Add to Cart
+                </button>
+              </div>
             </div>
-            <div className="w-full md:w-[40%] xl:w-[40%]">
+            <div className="w-full md:w-[40%] xl:w-[36%] xl:mt-10">
               <img src={Image} alt="" />
             </div>
           </div>
@@ -71,8 +79,16 @@ export default function App() {
               <p>
                 $ 399.00 <del className="">$ 499.00</del>
               </p>
+              <div className="flex gap-10">
+                <button className="bg-[#e99c2e] p-10 py-4 text-white hover:bg-white hover:border-[1px] hover:text-[#e99c2e] border-[#e99c2e]">
+                  Add to Cart
+                </button>
+                <button className="bg-[#ffffff] border-[#e99c2e] p-10 py-4 text-white hover:bg-white hover:border-[1px] hover:text-[#e99c2e]">
+                  Add to Cart
+                </button>
+              </div>
             </div>
-            <div className="w-full md:w-[40%] xl:w-[40%]">
+            <div className="w-full md:w-[40%] xl:w-[36%] xl:mt-10">
               <img src={Image2} alt="" />
             </div>
           </div>
@@ -95,8 +111,16 @@ export default function App() {
               <p>
                 $ 399.00 <del className="">$ 499.00</del>
               </p>
+              <div className="flex gap-10">
+                <button className="bg-[#e99c2e] p-10 py-4 text-white hover:bg-white hover:border-[1px] hover:text-[#e99c2e] border-[#e99c2e]">
+                  Add to Cart
+                </button>
+                <button className="bg-[#ffffff] border-[#e99c2e] p-10 py-4 text-white hover:bg-white hover:border-[1px] hover:text-[#e99c2e]">
+                  Add to Cart
+                </button>
+              </div>
             </div>
-            <div className="w-full md:w-[40%] xl:w-[40%]">
+            <div className="w-full md:w-[40%] xl:w-[36%] xl:mt-10">
               <img src={Image3} alt="" />
             </div>
           </div>
