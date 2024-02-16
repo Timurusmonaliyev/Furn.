@@ -44,7 +44,7 @@ export default function BrandCarousel() {
       >
         <div className="">
           <SwiperSlide>
-            <img className="w-[130%]" src={CaruselImg} alt="" />
+            <img className="" src={CaruselImg} alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={CaruselImg2} alt="" />

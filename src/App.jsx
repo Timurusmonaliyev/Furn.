@@ -1,6 +1,7 @@
 import React from "react";
 import LastestBlogCard from "./Views/LastestBlogCard";
 import BrandCarousel from "./Views/BrandCarousel";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <div>
         <LastestBlogCard />
         <BrandCarousel />
-        <div className="h-[200px]"></div>
+        <Footer />
       </div>
     </div>
   );
