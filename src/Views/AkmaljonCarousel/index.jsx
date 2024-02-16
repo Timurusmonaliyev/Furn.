@@ -7,7 +7,7 @@ import { Autoplay } from "swiper/modules";
 const AkmaljonCarousel = () => {
   return (
     <div className="">
-    <Swiper>
+      <Swiper>
         <SwiperSlide>
           <div class="sofa-collection collectionbg2">
             <div class="container">
@@ -67,8 +67,4 @@ const AkmaljonCarousel = () => {
   );
 };
 
-<<<<<<< HEAD
 export default AkmaljonCarousel;
-=======
-export default AkmaljonCarousel;
->>>>>>> a5cc2e9ef944c7562cdde9f814b69a3c6923ca6b
