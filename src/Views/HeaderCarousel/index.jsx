@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="h-[160vh] lg:h-[100vh] md:h-[100vh] xl:h-[110vh] bg-[#F8F9FD] flex items-center justify-center">
       <Swiper
-      loop={true}
+        loop={true}
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{

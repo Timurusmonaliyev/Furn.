@@ -11,6 +11,7 @@ const AkmaljonCarousel = () => {
         autoplay={{
           delay: 300,
           disableOnInteraction: true,
+          module: Autoplay,
         }}
         loop={true}
         className="mySwiperim h-[600px]"

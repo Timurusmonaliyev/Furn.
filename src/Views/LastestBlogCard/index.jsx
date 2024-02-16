@@ -70,7 +70,7 @@ const LastestBlogCard = () => {
               <div className=" ">
                 <div className="single-blog">
                   <div className="single-blog-img">
-                    <img src={BlogImgs3} alt="blog image" />
+                    <img src={BlogImgs} alt="blog image" />
                     <div className="single-blog-img-overlay"></div>
                   </div>
                   <div className="single-blog-txt pt-[24px]">
